@@ -1,0 +1,232 @@
+header {
+    background-image: url(backgroundheader.png);
+    padding: 20px 0;
+}
+
+.amazon{
+    position: absolute;
+    bottom: 52px;
+    right: 150px;
+    font-weight: bold;
+    font-size: 45px;
+    color:#23AC51;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.caixa {
+    position: relative;
+    width: 950px;
+    margin: 0 auto;
+}
+
+.folha {
+    position: absolute;
+    bottom: 80px;
+    right:270px
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+
+
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.barra{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+nav a:hover{
+    color:#23AC51;
+    text-decoration: underline;
+}
+
+.prologo-apresentacao {
+    background-image: url(backgroundtexto.png);
+    height: 500px;
+    font-family: 'PT Sans', sans-serif;
+    border: 5px solid #41244e;
+}
+
+.titulo-principal {
+    padding: 90px 0 10px 110px;
+    font-size: 33px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    text-transform: uppercase;
+    color: #41244e;
+}
+
+.titulo-principal:nth-child(1):before {
+    content: "●";
+    padding: 0 10px 0 0;
+}
+
+.textoapresenta {
+    width: 50%;
+    display: inline-block;
+    font-size: 25px;
+    vertical-align: top;
+    padding: 0 0 0px 110px;
+    color: #41244e;
+}
+
+.subtitulo:before {
+    content: "▶";
+    color: #000000;
+    padding: 0 10px 0 0;
+}
+
+.subtitulo {
+    width: 50%;
+    padding: 0 0px 10px 110px;
+    color: #000000;
+    font-size: 23px;
+}
+
+.texto-apoio {
+    width: 50%;
+    padding: 10px 0 0px 110px;
+    color: #41244e;
+    font-size: 20px;
+}
+
+.fotoacai {
+    width: 25%;
+    display: inline;
+    float: right;
+    border:10px solid #623678;
+    position: absolute;
+    bottom: 73px;
+    right: 130px;
+}
+
+.foto-loja {
+    width: 30%;
+    text-align: center;
+}
+
+.localizacao {
+    font-family: 'PT Sans', sans-serif;
+    height: 500px;
+}
+
+/*.titulosemponto {
+    padding: 90px 0px 0px 65px;
+    font-size: 33px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    text-transform: uppercase;
+    color: #41244e;
+}
+*/
+
+.titulosemponto {
+    padding: 185px 0px 0px 150px;
+    font-size: 33px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    text-transform: uppercase;
+    color: #41244e;
+}
+
+.iconlocaliza {
+    width: 2%;
+    padding: 28px 18px 0 0;
+    position: absolute;
+    right: 1359px;
+    top: 970px;
+}
+
+
+/*.iconlocaliza {
+    width: 2%;
+    padding: 28px 0px 0 0;
+    position: absolute;
+    right: 830px;
+    top: 870px;
+}
+*/
+
+.textolocalizacao {
+    padding: 20px 0 0px 110px;
+    width: 35%;
+    display: inline-block;
+    font-size: 25px;
+    vertical-align: top;
+    color: #41244e;
+}
+
+.lojas {
+    text-align: right;
+    vertical-align: top;
+    float: right;
+    margin: 95px 85px 0px 0;
+}
+
+.mapaloja {
+    width: 90%;
+    margin: 15px 0;
+    height: 200px;
+}
+
+.lojas li{
+    display:inline-block;
+    text-align: center;
+    width: 46%;
+    height: 340px;
+    vertical-align: top;
+    margin: 0px 1.5% 30px 0;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.apresentacao li:hover {
+    border-color:#9445bc;
+}
+
+.lojas li h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.apresentacao li:hover h3 {
+    font-size: 24px;
+}
+
+footer {
+    background-image: url(backgroundfooter.png);
+    text-align: center;
+    margin: 15px 0;
+}
+
+.rodape {
+    color: #ffffff;
+    padding-bottom: 20px;
+}
